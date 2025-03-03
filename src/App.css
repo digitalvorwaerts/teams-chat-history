@@ -1,0 +1,80 @@
+.todo-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.login-button, .logout-button, .refresh-button {
+  padding: 10px 20px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button:hover, .logout-button:hover, .refresh-button:hover {
+  background-color: #106ebe;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+  gap: 10px;
+}
+
+.todo-content {
+  flex: 1;
+}
+
+.todo-text {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.todo-text.completed {
+  text-decoration: line-through;
+  color: #666;
+}
+
+.todo-timestamp {
+  font-size: 0.8em;
+  color: #666;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+.error {
+  color: #d83b01;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #d83b01;
+  border-radius: 4px;
+}
+
+.refresh-button {
+  margin-top: 20px;
+}
